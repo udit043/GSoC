@@ -1,8 +1,14 @@
-6 June 2016 (10:32 PM)
+Total 32 files updated.
+1 header file created.
+configure.ac file updated for successful build in Travis-Ci
+
+OS   - SSL_ERROR_SYSCALL
+SSL  - SSL_get_error
+X509 - X509_verify_cert_error_string
 
 resiprocate/resip/stack 
       1 - https://github.com/udit043/resiprocate/blob/master/resip/stack/ConnectionManager.cxx       ( 1 change  OS  )
-      2 - https://github.com/udit043/resiprocate/blob/master/resip/stack/DateCategory.cxx            ( 3 changes OS pink line )
+      2 - https://github.com/udit043/resiprocate/blob/master/resip/stack/DateCategory.cxx            ( 3 changes OS  )
       3 - https://github.com/udit043/resiprocate/blob/master/resip/stack/GenericPidfContents.cxx     ( 2 changes OS  )
       4 - https://github.com/udit043/resiprocate/blob/master/resip/stack/InternalTransport.cxx       ( 3 changes OS  )
       5 - https://github.com/udit043/resiprocate/blob/master/resip/stack/TcpBaseTransport.cxx        ( 6 changes OS  )
@@ -16,149 +22,36 @@ resiprocate/resip/stack/test
       4 - https://github.com/udit043/resiprocate/blob/master/resip/stack/test/Transceiver.cxx        ( 1 change  OS  )
 
 resiprocate/resip/stack/ssl 
-      1 - https://github.com/udit043/resiprocate/blob/master/resip/stack/ssl/DtlsTransport.cxx       ( 15 changes SSL   )
-      2 - https://github.com/udit043/resiprocate/blob/master/resip/stack/ssl/Security.cxx            ( 2 changes 509 OS )
-      3 - https://github.com/udit043/resiprocate/blob/master/resip/stack/ssl/TlsConnection.cxx       ( 15 changes 13-SSL OS 509)
+      1 - https://github.com/udit043/resiprocate/blob/master/resip/stack/ssl/DtlsTransport.cxx       ( 15 changes SSL                )
+      2 - https://github.com/udit043/resiprocate/blob/master/resip/stack/ssl/Security.cxx            ( 2  changes X509 OS            )
+      3 - https://github.com/udit043/resiprocate/blob/master/resip/stack/ssl/TlsConnection.cxx       ( 15 changes 13-SSL 1-OS 1-X509 )
 
 resiprocate/resip/recon/MOHParkServer 
       1 - https://github.com/udit043/resiprocate/blob/master/resip/recon/MOHParkServer/HttpBase.cxx  ( 4 changes OS )
 
 resiprocate/rutil
       1 - https://github.com/udit043/resiprocate/blob/master/rutil/FdPoll.cxx          ( 9 changes OS )
-      2 - https://github.com/udit043/resiprocate/blob/master/rutil/FileSystem.cxx      ( 1 changes OS - MSG )
-      3 - https://github.com/udit043/resiprocate/blob/master/rutil/ServerProcess.cxx   ( 2 changes OS )
-      4 - https://github.com/udit043/resiprocate/blob/master/rutil/Socket.cxx          ( 4 changes OS )
-      5 - https://github.com/udit043/resiprocate/blob/master/rutil/DnsUtil.cxx         ( 3 changes OS - MSG)
+      2 - https://github.com/udit043/resiprocate/blob/master/rutil/FileSystem.cxx      ( 1 change  OS )
+      3 - https://github.com/udit043/resiprocate/blob/master/rutil/DnsUtil.cxx         ( 3 changes OS )
+      4 - https://github.com/udit043/resiprocate/blob/master/rutil/ServerProcess.cxx   ( 2 changes OS )
+      5 - https://github.com/udit043/resiprocate/blob/master/rutil/Socket.cxx          ( 4 changes OS ) 
 
 resiprocate/tfm
-      1 - https://github.com/udit043/resiprocate/blob/master/tfm/Resolver.cxx          ( 1 changes 0S )
+      1 - https://github.com/udit043/resiprocate/blob/master/tfm/Resolver.cxx          ( 1 change  0S )
       2 - https://github.com/udit043/resiprocate/blob/master/tfm/TestRtp.cxx           ( 3 changes 0S )
 
 resiprocate/repro
-      1 - https://github.com/udit043/resiprocate/blob/master/repro/XmlRpcServerBase.cxx   ( 1 change OS - MSG  )
-      2 - https://github.com/udit043/resiprocate/blob/master/repro/HttpBase.cxx           ( 5 change OS )
-      3 - https://github.com/udit043/resiprocate/blob/master/repro/XmlRpcConnection.cxx   ( 1 changes OS - MSG )
-      4 - https://github.com/udit043/resiprocate/blob/master/repro/HttpConnection.cxx     ( 2 changes OS - MSG )
-      5 - https://github.com/udit043/resiprocate/blob/master/repro/RegSyncClient.cxx      ( 8 changes OS)
+      1 - https://github.com/udit043/resiprocate/blob/master/repro/HttpBase.cxx           ( 5 changes OS ) 
+      2 - https://github.com/udit043/resiprocate/blob/master/repro/HttpConnection.cxx     ( 2 changes OS )
+      3 - https://github.com/udit043/resiprocate/blob/master/repro/RegSyncClient.cxx      ( 8 changes OS )
+      4 - https://github.com/udit043/resiprocate/blob/master/repro/XmlRpcConnection.cxx   ( 1 change  OS )
+      5 - https://github.com/udit043/resiprocate/blob/master/repro/XmlRpcServerBase.cxx   ( 1 change  OS )
 
 resiprocate/apps/clicktocall
-      1 - https://github.com/udit043/resiprocate/blob/master/apps/clicktocall/HttpBase.cxx          ( 4 changes OS - MSG  )
-      2 - https://github.com/udit043/resiprocate/blob/master/apps/clicktocall/XmlRpcServerBase.cxx  ( 12 changes OS - MSG )
-      3 - https://github.com/udit043/resiprocate/blob/master/apps/clicktocall/XmlRpcConnection.cxx  ( 2 changes OS - MSG  )
-      4 - https://github.com/udit043/resiprocate/blob/master/apps/clicktocall/HttpConnection.cxx    ( 3 changes OS - MSG  )
+      1 - https://github.com/udit043/resiprocate/blob/master/apps/clicktocall/HttpBase.cxx          ( 4  changes OS )
+      2 - https://github.com/udit043/resiprocate/blob/master/apps/clicktocall/HttpConnection.cxx    ( 3  changes OS )
+      3 - https://github.com/udit043/resiprocate/blob/master/apps/clicktocall/XmlRpcConnection.cxx  ( 2  changes OS )
+      4 - https://github.com/udit043/resiprocate/blob/master/apps/clicktocall/XmlRpcServerBase.cxx  ( 12 changes OS )
       
 resiprocate/apps/ichat-gw      
-      1 - https://github.com/udit043/resiprocate/blob/master/apps/ichat-gw/MediaRelay.cxx    (4 changes OS - MSG)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-******************************************************************************************************************************
-******************************************************************************************************************************
-                                    ERRORS ARE NOT UNDERSTANDING
-                                              @@ -- ERROR NOT UNDERSTANDING
-
-repro/BerkeleyDb.cxx:      ErrLog( <<"Could not open environment: " << db_strerror(ret));
-
-------------------------------------------------------------------------------------------------------
-
-repro/PersistentMessageQueue.cxx:         WarningLog( << "PersistentMessageEnqueue::push - put failed: " << db_strerror(res));
-
-------------------------------------------------------------------------------------------------------
-
-file:///home/udit/gsoc/resiprocate/repro/MySqlDb.cxx
-
-------------------------------------------------------------------------------------------------------
-
-file:///home/udit/gsoc/resiprocate/p2p/SelectTransporter.cxx
-
-------------------------------------------------------------------------------------------------------
-
-https://github.com/resiprocate/resiprocate/blob/master/resip/stack/ssl/Security.cxx#L1143
-
-------------------------------------------------------------------------------------------------------
-
-ErrLog(<< "SSL_CTX_new failed, dumping OpenSSL error stack:");
-while (ERR_peek_error())
-{
-    char errBuf[120];
-    ERR_error_string(ERR_get_error(), errBuf);
-    ErrLog(<< "OpenSSL error stack: " << errBuf);
-}
-
-------------------------------------------------------------------------------------------------------
-
-https://github.com/resiprocate/resiprocate/blob/master/resip/stack/ssl/Security.cxx#L2058
-https://github.com/resiprocate/resiprocate/blob/master/resip/stack/ssl/Security.cxx#L2154
-https://github.com/resiprocate/resiprocate/blob/master/resip/stack/ssl/Security.cxx#L2323
-https://github.com/resiprocate/resiprocate/blob/master/resip/stack/ssl/Security.cxx#L2503
-
-------------------------------------------------------------------------------------------------------
-
-https://github.com/udit043/resiprocate/blob/master/resip/stack/ssl/MacSecurity.cxx#L177
-
-------------------------------------------------------------------------------------------------------
-
-https://github.com/resiprocate/resiprocate/blob/master/resip/stack/ssl/WinSecurity.cxx#L261
-
-------------------------------------------------------------------------------------------------------
-
-https://github.com/resiprocate/resiprocate/blob/master/resip/stack/test/testTlsConnection.cxx#L123
-
-------------------------------------------------------------------------------------------------------
-
-https://github.com/resiprocate/resiprocate/blob/master/resip/stack/ssl/DtlsTransport.cxx#L559
-
-------------------------------------------------------------------------------------------------------
-
-stack/ssl/MacSecurity.cxx:         ErrLog( << "Couldn't load certificate, error code: " << status);
-
-------------------------------------------------------------------------------------------------------
-
-stack/ssl/WinSecurity.cxx:                    ErrLog( << " Cannot open cert store, dwRet=" << dwRet);
-
-------------------------------------------------------------------------------------------------------
-
-*************** err number is not understanding ******************
-   
-   *** https://github.com/resiprocate/resiprocate/blob/master/resip/stack/SipStack.cxx#L759 ***
-
-   ***rutil/DnsUtil.cxx:  CritLog( << "could not find local hostname because network not initialized:" << strerror(err) );
-
-   ***rutil/FileSystem.cxx: ErrLog(<<"Error calling stat() for " << mFullFilename.c_str() << ": " << strerror(errno));
-------------------------------------------------------------------------------------------------------
-
-find stack -type f -name '*.[ch]xx' -exec egrep -H '(Crit|Err|Warning|ICnfo|Debug|Stack)Log' {} \; | less
-find dum -type f -name '*.[ch]xx' -exec egrep -H '(Crit|Err|Warning|Info|Debug|Stack)Log' {} \; | less
-find rutil -type f -name '*.[ch]xx' -exec egrep -H '(Crit|Err|Warning|Info|Debug|Stack)Log' {} \; | less > rutil043.txt
-find recon -type f -name '*.[ch]xx' -exec egrep -H '(Crit|Err|Warning|Info|Debug|Stack)Log' {} \; | less > recon_list.txt
-find rend -type f -name '*.[ch]xx' -exec egrep -H '(Crit|Err|Warning|Info|Debug|Stack)Log' {} \; | less > rend_list.txt
-find reTurn -type f -name '*.[ch]xx' -exec egrep -H '(Crit|Err|Warninginfo|Debug|Stack)Log' {} \; | less > reTurn_list.txt
-find resiprocate -type f -name '*.[ch]xx' -exec egrep -H '(Crit|Err|Warning|Info|Debug|Stack)Log' {} \; | less > resiprocate_new_list.txt
+      1 - https://github.com/udit043/resiprocate/blob/master/apps/ichat-gw/MediaRelay.cxx    ( 4 changes OS )
