@@ -1,6 +1,8 @@
+Pull Request : https://github.com/resiprocate/resiprocate/pull/49
+Travis-Ci build : https://travis-ci.org/resiprocate/resiprocate/builds/143702228
+
 Total 32 files updated.
 1 header file created.
-configure.ac file updated for successful build in Travis-Ci
 
 OS   - SSL_ERROR_SYSCALL
 SSL  - SSL_get_error
